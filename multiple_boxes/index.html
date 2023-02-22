@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CSS
+    </title>
+    <style>
+        .container {
+            width: 100px;
+            display: inline;
+        }
+
+        .card1 {
+            height: 150px;
+            width: 200px;
+            border: 2px dashed black;
+            border-width: thin;
+            border-color: yellow;
+            text-align: center;
+            color:rgb(10, 9, 9);
+            background-color: salmon;
+            background-image: url(img2.jpeg);
+            margin: 2em;
+            padding: 16px 32px;
+            display: inline-block;
+        }
+        a:hover{
+            background-image:url(img1);
+        }
+
+        .card2 {
+            height: 150px;
+            width: 200px;
+            border: 4px ridge black;
+            border-width: thin medium thick 10px;
+           text-align: center;
+           color:tomato;
+            border-color: red;
+            background-color: wheat;
+            background-image: url(img3.jpeg);
+            margin: 2em;
+            padding: 16px 32px;
+            display: inline-block;
+        }
+
+        .card3 {
+            height: 150px;
+            width: 200px;
+            border: 6px double black;
+            color:white;
+            text-align: center;
+            border-color: brown;
+            border-width: thick;
+            background-color: rgb(8, 65, 8);
+            background-image: url(img4.jpeg);
+            position: relative;
+            animation-name: example;
+            animation-duration: 6s;
+            animation-delay: -2s;
+            margin: 2em;
+            display: inline-block;
+            padding: 16px 32px;
+
+        }
+
+        @keyframes example {
+            0% {
+                background-image: url(img1.jpeg);
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-image: url(img2.jpeg);
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                background-image: url(img3.jpeg);
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                background-image: url(img4.jpeg);
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                background-image: url(img2.jpeg);
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card1">
+            WELCOME
+        </div>
+        <div class="card2">
+          <a>CSS</a>  
+        </div>
+        <div class="card3">
+            Java Script
+        </div>
+    </div>
+</body>
+
+</html>
