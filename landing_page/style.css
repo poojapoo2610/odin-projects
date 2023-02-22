@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body {
+    font-family: 'Roboto slab', serif;
+}
+
+.first-section {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-right,
+.navbar-left {
+    padding-top: 1rem;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7E6;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.content-left h2 {
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.p-first {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+img {
+    width: 400px;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.sign-up-first-section {
+    margin: 30px;
+    background-color: #3882f6;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* CONTENT SECTION */
+
+.content {
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.content h3 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.content img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.img-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    padding: 2em 0;
+}
+
+.quote-section p {
+    font-style: italic;
+}
+
+.quote-section .author {
+    font-weight: bold;
+    font-size: px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.quote-section .author span {
+    font-style: italic;
+}
+
+
+/* CTA SECTION */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 5em 0em;
+    padding: 3em 8em;
+    border-radius: 10px;
+    gap: 8em;
+}
+
+.cta div p,
+.cta div h3 {
+    margin: 0;
+}
+
+.cta div p {
+    margin-top: 10px;
+}
+
+.cta button {
+    border: 3px solid white;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    padding: 2em;
+    text-align: center;
+}
